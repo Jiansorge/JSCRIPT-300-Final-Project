@@ -1,0 +1,70 @@
+.gameover-content {
+
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    background-color: darkblue;
+    background-image:url("../assets/images/gameover.png");
+    background-size: cover;
+    /* align-items: center; */
+    margin: 14px;
+    width: 100%;
+    height: 98%;
+    align-items: center;
+    justify-content: flex-start;
+    user-select: none; 
+}
+
+.gameover-content h1 {
+    color:  #002F4B;
+    font-family: 'Silom', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13vh;
+    padding: 4% 0 0px;
+    text-align: center;
+
+    text-shadow: 0.04em -0.04em 3px black, 0.02em 0.02em 3px black, -0.02em -0.02em 3px black, -0.02em 0.02em 3px black;
+}
+
+.gameover-content h2 {
+        color: white;
+        font-family: 'Bangla MN', Georgia, Times, 'Times New Roman', serif;
+        padding: 0 0 10px;
+        margin: 0;
+        font-size: 7vh;
+        font-weight: 900;
+        text-shadow: 2px 2px 3px black; 
+    
+}
+
+.gameover-content button {
+    color: black;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    font-family: 'Bangla MN', Georgia, Times, 'Times New Roman', serif;
+
+    padding: 1rem 2rem 0;
+    font-size: 3vh;
+    /* text-shadow: 2px 2px 3px black;  */
+    border: groove 2px rgba(0, 0, 0, 0.9);
+    box-shadow: 2px 2px  rgba(0, 0, 0, 1);
+    z-index: 1;
+
+}
+
+.gameover-content button:hover {
+    background-color: rgba(255, 255, 255, 0.8);;
+    font-size:3.1vh;
+    text-shadow: 1px 1px 1px black; 
+
+    animation: color_change 1s;
+    z-index: 2;
+
+}
+
+img.gameover-img-cheep {
+    position: absolute;
+    right: 25%;
+    top: 40%;
+    width: 10vw;
+    z-index: 0;
+}

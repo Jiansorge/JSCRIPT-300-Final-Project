@@ -1,0 +1,68 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content {
+    background-color: black;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game-container {
+    background-color:navy;
+    background-image:url("../assets/images/underwater.jpg");  
+    width: 100%;
+    max-width: 60rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ship-container {
+    position: relative;
+    width: 98%;
+    height: 145px;
+}
+
+.ship {
+    position: absolute;     
+}
+
+.shipSprite {
+    height: 130px;
+    user-select: none; 
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0077BE;
+    width: 20%;
+    height: 100%;
+}
+
+img {
+    user-select: none; 
+    /* text-align: center; */
+    }
+
+img.attack {
+    text-align: center;
+    /* left: 40px; */
+}
+
