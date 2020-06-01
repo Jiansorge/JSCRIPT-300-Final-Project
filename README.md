@@ -13,3 +13,6 @@ npm start
 To visit the live version of the app, visit 
 
 The app is purely built on React and Javascript.    
+
+Cloned from https://github.com/mauryaavinash95/sky-shooter
+
